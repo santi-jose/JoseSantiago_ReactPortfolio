@@ -4,7 +4,7 @@ import duckling from "../../assets/duck_down.gif";
 function About() {
   const Summary = () => {
     return (
-      <div className="backgroundContainer">
+      <div>
         <section className="aboutWrapper">
           <div className="introMission">
             <div className="heroContainer">

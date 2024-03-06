@@ -9,7 +9,7 @@ function Home(){
         // Your Home page should greet your user and 
         // explain your role
         // Refer to your original portfolio
-        <div className='backgroundContainer'>
+        <div>
             <h2>Jose Luis Santiago</h2>
             <img src={duckling}/>
             <p>

@@ -11,31 +11,31 @@ function App() {
 
   return (
     <Router>
+      <div className="backgroundContainer">
+        {/* ... Navbar */}
+        <Navbar />
 
-      {/* ... Navbar */}
-      <Navbar />
+        <hr />
+        <Routes>
+          
+          {/* ... Home */}
+          <Route path="/" element={<Home />} />
 
-      <hr />
-      <Routes>
-        
-        {/* ... Home */}
-        <Route path="/" element={<Home />} />
+          {/* ... About */}
+          <Route path="/about" element={<About />} />
 
-        {/* ... About */}
-        <Route path="/about" element={<About />} />
-
-        {/* ... Contact */}
-        <Route 
-          path="/contact" 
-          element={
-            <Contact
-            phone="310-593-3780"
-            email="jlsantia21@gmail.com"
+          {/* ... Contact */}
+          <Route 
+            path="/contact" 
+            element={
+              <Contact
+              phone="310-593-3780"
+              email="jlsantia21@gmail.com"
+              />
+            } 
             />
-          } 
-          />
-        
-      </Routes>
+        </Routes>
+      </div>
     </Router>
   )
 }
