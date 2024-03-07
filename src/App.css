@@ -10,24 +10,25 @@ body {
   flex-direction: column;
   font-family: "PixelCode";
   color: white;
-  /* max-width: 100vw; */
-  /* max-height: 100vh; */
+  max-width: 100vw;
+  max-height: 100vw;
+  /* Checkered Pattern */
+  background: #997577;
+  background-image: linear-gradient(
+      45deg,
+      #816271 25%,
+      transparent 0,
+      transparent 75%,
+      #816271 0
+    ),
+    linear-gradient(
+      45deg,
+      #816271 25%,
+      transparent 0,
+      transparent 75%,
+      #816271 0
+    );
+
+  background-position: 0 0, 40px 40px, 40px 40px, 80px 80px; /* will also need to adjust these values here */
+  background-size: 80px 80px; /* Each square is 80px by 80px */
 }
-
-.backgroundContainer{
-    width: 100%;
-    height: 100%;
-    background-image: url('./assets/checkerboard.svg');
-    background-repeat: repeat;
-}
-
-a{
-    color: white;
-    text-decoration: none;
-}
-
-a:hover{
-    color: rgb(245, 140, 238)
-}
-
-

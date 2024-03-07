@@ -15,7 +15,6 @@ function App() {
         {/* ... Navbar */}
         <Navbar />
 
-        <hr />
         <Routes>
           
           {/* ... Home */}
@@ -31,6 +30,8 @@ function App() {
               <Contact
               phone="310-593-3780"
               email="jlsantia21@gmail.com"
+              linkedIn="https://www.linkedin.com/in/j-santi/"
+              github="https://github.com/santi-jose"
               />
             } 
             />

@@ -1,32 +1,26 @@
 import './contact.css'
+// import duckling from '../../assets/duck_down.gif'
+import maguey from '../../assets/maguey.png'
+import { Link } from 'react-router-dom'
 
 function Contact(props){
-    const { phone, email } = props;
+    const { phone, email, linkedIn, github } = props;
 
     return(
-        <div>
-            <h2>Contact Me!</h2>
-            <p>Phone: { phone }</p>
-            <p>Email: { email }</p>
-
-            <div className="expTool">
-            <div className="expCards">
-              <div className="expCard">
-                <h3>Embedded Programming</h3>
-                <p>This is where I talk about embedded programming.</p>
-              </div>
-
-              <div className="expCard">
-                <h3>Web Development</h3>
-                <p>This is where I talk about web development.</p>
-              </div>
-
-              <div className="expCard">
-                <h3>Game Development</h3>
-                <p>This is where I talk about game development.</p>
-              </div>
+        <div className="contactWrapper">
+            <div className="contactCard">
+                <div className="magueyContainer">
+                    <img src={maguey}/>
+                </div>
+                <div className="contactContent">
+                    <h2>Jose Luis Santiago</h2>
+                    <h3>Let's party up!</h3>
+                    <p>Phone: { phone }</p>
+                    <p>Email: { email }</p>
+                    <p>LinkedIn: <Link  to={ linkedIn }>{ linkedIn }</Link></p>
+                    <p>Github: <Link to={ github }>{ github }</Link></p>
+                </div>
             </div>
-          </div>
         </div>
 
         

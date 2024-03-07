@@ -9,7 +9,7 @@ function About() {
           <div className="introMission">
             <div className="heroContainer">
               <div className="ducklingContainer">
-                <img src={duckling} />
+                <img src={duckling} alt="duckling pixel art gif"/>
               </div>
 
               <div className="heroParagraph">
@@ -63,7 +63,7 @@ function About() {
                     <h3>B.S. Computer Engineering - UC Santa Cruz</h3>
                 </div>
                 <div className="educationCard">
-                    <h3>Web Development Fellowship - The Knowledge House</h3>
+                    <h3>Web Development Fellow - The Knowledge House</h3>
                 </div>
             </div>
           </div>
