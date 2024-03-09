@@ -10,7 +10,7 @@ function Contact(props){
         <div className="contactWrapper">
             <div className="contactCard">
                 <div className="magueyContainer">
-                    <img src={maguey}/>
+                    <img src={maguey} alt="maguey pixel art png"/>
                 </div>
                 <div className="contactContent">
                     <h2>Jose Luis Santiago</h2>

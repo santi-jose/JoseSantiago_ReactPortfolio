@@ -29,6 +29,6 @@ body {
       #816271 0
     );
 
-  background-position: 0 0, 40px 40px, 40px 40px, 80px 80px; /* will also need to adjust these values here */
+  background-position: 0 0, 40px 40px, 40px 40px, 80px 80px;
   background-size: 80px 80px; /* Each square is 80px by 80px */
 }

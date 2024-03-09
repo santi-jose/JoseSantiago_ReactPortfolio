@@ -1,6 +1,3 @@
-.navbar{
-    border: 2px pink solid;
-}
 
 .navbar,
 .navbar > ul {
@@ -32,3 +29,7 @@ a {
 a:hover {
   color: #997577;
 }
+
+/* .active{
+  color: #997577;
+} */

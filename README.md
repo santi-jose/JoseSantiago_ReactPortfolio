@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Jose Luis Santiago - SPA Portfolio React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## About
 
-In the project directory, you can run:
+This is a SPA React web application. We have a navbar which directs us to one of three different pages: Home, About, and Contact. The root path '/' routes us to the Home page.  
 
-### `npm start`
+The inspiration for the design of the website is from Earthbound 2's character screen. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+There are four components of this web app. 
+1. Navbar: This component renders the navbar which routes us to our different pages using the react-dom-router package.
+2. Home: The home component welcomes visitors and has project cards which detail the extent of my skills.
+3. About: The About component gives a deeper perspective into who I am as a developer and person. It details my areas of interest as well as my client work and educational experience.
+4. Contact: This contact component shows a contact card with details on how to reach me if my services are requested.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies
 
-### `npm test`
+1. **IDE**: VSCode
+2. **Markup Languages**: Markdown
+4. **Programming Languages**: JSX
+5. **Style Sheet Languages**: CSS 
+6. **UI Framework**: React
+7. **Local Development Server**: Vite
+8. **Version Control System**: Github
+9. **Terminal**: powershell
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
+This webapp displays myself and my passion for technology. 
 
-### `npm run build`
+## Installation
+1. Make a directory to clone this repository into\
+`C:\PATH> mkdir Santi_Portfolio`
+2. Move into directory\
+`C:\PATH> cd Santi_Portfolio`
+3. Clone repository\
+`C:\PATH\Santi_Portfolio> git clone https://github.com/santi-jose/JoseSantiago_ReactPortfolio.git`
+4. Start the server\
+`C:PATH\Santi_Portfolio> npm start`
+5. Go to [port 5173](http://localhost:3000/) to view the Portfolio Web App! Here you can click through different pages through the navbar at the top of the website. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
