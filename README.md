@@ -37,6 +37,6 @@ This webapp displays myself and my passion for technology.
 `C:\PATH\Santi_Portfolio> git clone https://github.com/santi-jose/JoseSantiago_ReactPortfolio.git`
 4. Start the server\
 `C:PATH\Santi_Portfolio> npm start`
-5. Go to [port 5173](http://localhost:3000/) to view the Portfolio Web App! Here you can click through different pages through the navbar at the top of the website. 
+5. Go to [port 3000](http://localhost:3000/) to view the Portfolio Web App! Here you can click through different pages through the navbar at the top of the website. 
 
 
