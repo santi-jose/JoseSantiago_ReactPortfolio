@@ -16,7 +16,7 @@ function Contact(props){
                     <h2>Jose Luis Santiago</h2>
                     <h3>Let's party up!</h3>
                     <p>Phone: { phone }</p>
-                    <p>Email: { email }</p>
+                    <p>Email: <Link to={`mailto: ${email}`}>{ email }</Link></p>
                     <p>LinkedIn: <Link  to={ linkedIn }>{ linkedIn }</Link></p>
                     <p>Github: <Link to={ github }>{ github }</Link></p>
                 </div>

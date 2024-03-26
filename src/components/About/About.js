@@ -6,6 +6,7 @@ function About() {
     return (
       <div>
         <section className="aboutWrapper">
+
           <div className="introMission">
             <div className="heroContainer">
               <div className="ducklingContainer">
@@ -30,6 +31,18 @@ function About() {
                   competitive nature can drive impactful solutions. I aim to
                   inspire others the way video games inspired me.
                 </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="education">
+            <h2>Education</h2>
+            <div className="educationCards">
+              <div className="educationCard">
+                <h3>B.S. Computer Engineering: Robotics and Control - UC Santa Cruz</h3>
+              </div>
+              <div className="educationCard">
+                <h3>Web Development Fellow - The Knowledge House</h3>
               </div>
             </div>
           </div>
@@ -75,17 +88,6 @@ function About() {
             </div>
           </div>
 
-          <div className="education">
-            <h2>Education</h2>
-            <div className="educationCards">
-              <div className="educationCard">
-                <h3>B.S. Computer Engineering - UC Santa Cruz</h3>
-              </div>
-              <div className="educationCard">
-                <h3>Web Development Fellow - The Knowledge House</h3>
-              </div>
-            </div>
-          </div>
         </section>
       </div>
     );

@@ -1,7 +1,15 @@
 import "./home.css";
 import { Link } from "react-router-dom";
+
+// Asset imports
 import rat from "../../assets/rat_walk_right.gif";
 import pigeon from "../../assets/pigeon_fly.gif";
+import GithubAppGif from "../../assets/GithubCloneApp.gif";
+import PurgatoryGif from "../../assets/Purgatory.gif";
+import ClassroomAvgGif from "../../assets/ClassroomAvgApp.gif";
+import SensorsLabImg from "../../assets/CapacitiveTouchSensor_LP_Bridge_DiffAmp_LM555.png";
+import WildfireAlarmImg from "../../assets/WildfireAlarm.png";
+import DriveSMImg from "../../assets/lab7_drivesm.jpg";
 
 function Home() {
   return (
@@ -13,7 +21,7 @@ function Home() {
     <div className="homeWrapper">
       <div className="welcomeContainer">
         <div className="ratContainer">
-          <img src={rat} alt="rat pixel art gif"/>
+          <img src={rat} alt="rat pixel art gif" />
         </div>
         <div className="welcomeMessage">
           <h2>Welcome Travelers!</h2>
@@ -38,21 +46,122 @@ function Home() {
               Purgatory
             </Link>
           </h3>
+          <Link 
+            className="projectImgLink"
+            to="https://santi-jose.github.io//PurgatoryExport/purgatory.html" 
+            target="_blank"
+          >
+            <img
+              className="projectCardImg"
+              src={PurgatoryGif}
+              alt="Purgatory Gameplay Demo Gif"
+            />
+          </Link>
         </div>
         <div className="projectCard">
-          <h3>Heavy Machinery E-commerce Website - Arrow</h3>
+          <h3>
+            <Link 
+              to="https://githubapiapp.onrender.com/"
+              target="_blank"
+            >
+              GitHub Clone App
+            </Link>
+          </h3>
+          <Link 
+            className="projectImgLink"
+            to="https://githubapiapp.onrender.com" 
+            target="_blank"
+          >
+            <img
+              className="projectCardImg"
+              src={GithubAppGif}
+              alt="Github App Demo Gif"
+            />
+          </Link>
         </div>
         <div className="projectCard">
-          <h3>ECE 167 Sensors and Sensing Technology: Lab 2</h3>
+          <h3>
+            <Link 
+              to="https://classroomavgreact.onrender.com/"
+              target="_blank"
+            >
+              Classroom Average App
+            </Link>
+          </h3>
+          <Link 
+            className="projectImgLink"
+            to="https://classroomavgreact.onrender.com" 
+            target="_blank"
+          >
+            <img
+              className="projectCardImg"
+              src={ClassroomAvgGif}
+              alt="Classroom Avg App Demo Gif"
+            />
+          </Link>
         </div>
         <div className="projectCard">
-          <h3>CSE 123A/B Engineering Design Project: IoT Wildfire Alarm System</h3>
+          <h3>
+            <Link
+              to="https://github.com/santi-jose/Sensing-SensorTechnologies"
+              target="_blank"
+            >
+              Sensors and Sensing Tech Lab
+            </Link>
+          </h3>
+          <Link
+            className="projectImgLink"
+            to="https://github.com/santi-jose/Sensing-SensorTechnologies"
+            target="_blank"
+          >
+            <img
+              className="projectCardImg"
+              src={SensorsLabImg}
+              alt="Sensors Lab Img"
+            />
+          </Link>
         </div>
         <div className="projectCard">
-          <h3>ECE 141 Feedback Control Systems: Project 5</h3>
+          <h3>
+            <Link
+              to="https://santi-jose.github.io/reports/CSE123_DesignDocument.pdf"
+              target="_blank"
+            >
+              IoT Wildfire Alarm
+            </Link>
+          </h3>
+          <Link
+            className="projectImgLink"
+            to="https://santi-jose.github.io/reports/CSE123_DesignDocument.pdf"
+            target="_blank"
+          >
+            <img
+              className="projectCardImg"
+              src={WildfireAlarmImg}
+              alt="Wildfire Alarm Img"
+            />
+          </Link>
         </div>
         <div className="projectCard">
-          <h3>CSE 100 Logic Design: Lab 7</h3>
+          <h3>
+            <Link
+              to="https://github.com/santi-jose/LogicDesign/tree/main/Lab7"
+              target="_blank"
+            >
+              Logic Design Lab
+            </Link>
+          </h3>
+          <Link
+            className="projectImgLink"
+            to="https://github.com/santi-jose/LogicDesign/tree/main/Lab7"
+            target="_blank"
+          >
+            <img
+              className="projectCardImg"
+              src={DriveSMImg}
+              alt="Drive State Machine Img"
+            />
+          </Link>
         </div>
       </div>
     </div>
