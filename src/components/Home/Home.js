@@ -145,7 +145,7 @@ function Home() {
         <div className="projectCard">
           <h3>
             <Link
-              to="https://github.com/santi-jose/LogicDesign/tree/main/Lab7"
+              to="https://github.com/santi-jose/LogicDesign"
               target="_blank"
             >
               Logic Design Lab
@@ -153,7 +153,7 @@ function Home() {
           </h3>
           <Link
             className="projectImgLink"
-            to="https://github.com/santi-jose/LogicDesign/tree/main/Lab7"
+            to="https://github.com/santi-jose/LogicDesign"
             target="_blank"
           >
             <img
