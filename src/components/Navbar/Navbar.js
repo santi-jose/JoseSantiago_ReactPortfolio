@@ -13,7 +13,6 @@ function Navbar() {
           <Link
             to="/"
             id="home"
-            className={location.pathname === "/" ? "active" : ""}
           >
             {location.pathname === "/" ? "►Home" : "Home"}
           </Link>
@@ -22,7 +21,6 @@ function Navbar() {
           <Link
             to="/about"
             id="about"
-            className={location.pathname === "/about" ? "active" : ""}
           >
             {location.pathname === "/about" ? "►About" : "About"}
           </Link>
@@ -31,7 +29,6 @@ function Navbar() {
           <Link
             to="/contact"
             id="contact"
-            className={location.pathname === "/contact" ? "active" : ""}
           >
             {location.pathname === "/contact" ? "►Contact" : "Contact"}
           </Link>
