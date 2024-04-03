@@ -28,7 +28,7 @@ function Home() {
           <p>
             My name is <span className="important">Jose Santiago</span>, but you
             can call me <span className="important">Santi</span>! I am an
-            aspiring software engineer in the game development industry. This is
+            aspiring software engineer. This is
             my website.
           </p>
         </div>
