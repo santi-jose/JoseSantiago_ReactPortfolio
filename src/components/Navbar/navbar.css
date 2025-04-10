@@ -29,3 +29,27 @@ a {
 a:hover {
   color: #997577;
 }
+
+/* implement responsive design */
+@media(max-width: 320px){
+  .navbar > ul{
+    max-width: 55vw;
+  }
+}
+
+@media(max-width: 480px){
+  .navbar > ul{
+    flex-direction: column;
+    max-width: 40vw;
+    align-items: center;
+  }
+}
+
+@media(max-width: 768){
+  .navbar > ul{
+    flex-direction: column;
+    max-width: 35vw;
+    align-items: baseline;
+    padding: 5% 10% 5% 10%;
+  }
+}
