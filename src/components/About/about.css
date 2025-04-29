@@ -20,10 +20,12 @@
 
 .ducklingContainer{
     display: flex;    
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    /* width: 25%; */
-    padding: 2% 2% 2% 2%;
-    margin: 2% 5% 2% 5%;
+    width: 25%;
+    /* padding: 2% 2% 2% 2%; */
+    margin: 5% 5% 5% 5%; 
 }
 
 .heroParagraph{
@@ -33,8 +35,8 @@
     border: 8px white solid;
     background-color: black;
     border-radius: 8px;
-    padding: 0 2% 0 2%;
-    width: 75%;
+    text-align:justify;
+    padding: 4% 4%;
     margin: 0 2.5% 0 2.5%;
 }
 
@@ -52,14 +54,15 @@
 .expCard{
     display: flex;
     flex-direction: column;
-    width: 30%;
-    height: 30%;
+    width: 25%;
+    min-height:100%;
     border: 8px white solid;
     background-color: black;
     border-radius: 8px;
-    justify-content: center;
+    text-align: center;
+    justify-content: flex-start;
     align-items: center;
-    padding: 0 2% 0 2%;
+    padding: 4% 4%;
     margin: 2% 2.5% 2% 2.5%;
 }
 
@@ -84,14 +87,15 @@
 .clientCard{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
+    text-align: justify;
     width: 35%;
     border: 8px white solid;
     background-color: black;
     border-radius: 8px;
-    margin: 2% 0 2% 0;
-    padding: 0 2% 0 2%;
+    margin: 4% 4%;
+    padding: 2% 2%;
 }
 
 
@@ -109,7 +113,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 100%;
 }
 
 .educationCard{
@@ -120,6 +123,66 @@
     border: 8px white solid;
     background-color: black;
     border-radius: 8px;
-    padding: 0 1% 0 1%;
-    margin: 2% 0 2% 0;
+    padding: 0 2% 0 2%;
+    margin: 4% 4%;
+}
+
+/* Phone breakpoint */
+@media(width <= 480px){
+    .heroContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .educationCards{
+        flex-direction: column;
+    }
+    .educationCard{
+        width: initial;
+        margin: 4% 5%;
+    }
+    .expCards{
+        flex-direction: column;
+    }
+    .expCard{
+        width: initial;
+        text-align: justify;
+    }
+    .clientCards{
+        flex-direction: column;
+    }
+    .clientCard{
+        width: initial;
+        margin: 4% 5%;
+        text-align: center;
+    }
+}
+
+/* Tablet breakpoint */
+@media (480px < width <= 768px){
+    .heroContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .educationCards{
+        flex-direction: column;
+    }
+    .educationCard{
+        width: initial;
+        margin: 4% 5%;
+    }
+    .expCards{
+        flex-direction: column;
+    }
+    .expCard{
+        width: initial;
+        text-align: justify;
+    }
+    .clientCards{
+        flex-direction: column;
+    }
+    .clientCard{
+        width: initial;
+        margin: 4% 5%;
+        text-align: center;
+    }
 }
