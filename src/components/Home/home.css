@@ -16,9 +16,14 @@
 .welcomeMessage{
     display: flex;
     flex-direction: column;
+    text-align: justify;
     align-items: center;
     margin: 1% 1% 1% 1%;
     padding: 0 2% 0 2%;
+}
+
+.welcomeMessage>h2{
+    text-align: center;
 }
 
 .pigeonContainer{
@@ -99,9 +104,6 @@
         flex-direction: column;
         align-items: center;
     }
-    .welcomeMessage{
-        text-align: center;
-    }
     .pigeonContainer{
         margin: 5% 5%;
     }
@@ -121,8 +123,5 @@
     }
     .welcomeContainer{
         padding: 0 5%;
-    }
-    .welcomeMessage{
-        text-align: center;
     }
 }
