@@ -6,23 +6,61 @@
 
 .contactCard{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     border: 8px white solid;
     border-radius: 8px;
     background-color: black;
     padding: 0 1% 0 2%;
-    top: 2%;
+    /* top: 2%; */
+}
+
+.contactCard>h2{
+    text-align: center;
 }
 
 .magueyContainer{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    width: 40%;
-    padding: 0 0 10% 2%;
+    padding: 5% 5%;
 }
 
 .contactContent{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+}
+
+.contactText{
+    word-break: break-all;
+    padding: 2% 2%;
+}
+
+/* Phone breakpoint */
+@media(width <= 480px){
+    .contactContent{
+        flex-direction: column;
+        align-items: center;
+    }
+    .magueyContainer{
+        justify-content: flex-end;
+        width: 75%;
+    }
+    .contactText>h3{
+        text-align: center;
+    }
+}
+
+/* Tablet breakpoint */
+@media (480px < width <= 768px){
+    .contactContent{
+        flex-direction: column;
+        align-items: center;
+    }
+    .magueyContainer{
+        justify-content: flex-end;
+        width: 50%;
+    }
+    .contactText>h3{
+        text-align: center;
+    }
 }

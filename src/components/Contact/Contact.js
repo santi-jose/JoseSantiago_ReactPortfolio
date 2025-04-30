@@ -9,16 +9,19 @@ function Contact(props){
     return(
         <div className="contactWrapper">
             <div className="contactCard">
-                <div className="magueyContainer">
-                    <img src={maguey} alt="maguey pixel art png"/>
-                </div>
+                <h2>Jose Luis Santiago</h2>
+                    
                 <div className="contactContent">
-                    <h2>Jose Luis Santiago</h2>
-                    <h3>Let's party up!</h3>
-                    <p>Phone: { phone }</p>
-                    <p>Email: <Link to={`mailto: ${email}`}>{ email }</Link></p>
-                    <p>LinkedIn: <Link  to={ linkedIn }>{ linkedIn }</Link></p>
-                    <p>Github: <Link to={ github }>{ github }</Link></p>
+                    <div className="magueyContainer">
+                        <img src={maguey} alt="maguey pixel art png"/>
+                    </div>
+                    <div className="contactText">
+                        <h3>Let's party up!</h3>
+                        <p>Phone: { phone }</p>
+                        <p>Email: <Link to={`mailto: ${email}`}>{ email }</Link></p>
+                        <p>LinkedIn: <Link  to={ linkedIn }>{ linkedIn }</Link></p>
+                        <p>Github: <Link to={ github }>{ github }</Link></p>
+                    </div>
                 </div>
             </div>
         </div>
