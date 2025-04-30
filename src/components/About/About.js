@@ -14,7 +14,7 @@ function About() {
             <div className="heroParagraph">
               <h2>About Me</h2>
               <p>
-                My name is <span className="important">Jose Luis Santiago</span>{" "}
+                My name is <span className="important">Jose Luis Santiago</span>
                 and I am a Computer Engineering graduate from UCSC with a
                 background in Embedded Systems and Web Development. I received 
                 a certification in Web Development from The Knowledge House in 
@@ -52,12 +52,12 @@ function About() {
             <div className="expCard">
               <h3>Embedded Programming</h3>
               <p>
-                During my time in undergrad at UCSC, my Computer Engineering
-                concentration was in Robotics and Control. I learned advanced
+                I received a B.S. in Computer Engineering with a concentration 
+                in Robotics and Control from UCSC on June 14th 2021. I learned advanced
                 programming in C++ and Embedded Programming in C. My senior
                 capstone was an IoT device which monitored parameters indicative
                 of wildfire risk. I was on the hardware team responsible for
-                implementing the microcontroller and sensors.{" "}
+                implementing the microcontroller and sensors.
               </p>
             </div>
 
@@ -68,8 +68,9 @@ function About() {
                 college via a 1 month internship with a startup, Arrow. I led a
                 3-intern group to create an MVP of an e-commerce website for
                 heavy machinery. By the end of the month we successfully created
-                a prototype with Stripe API implementation. I am also currently
-                a Web Development Fellow with The Knowledge House.
+                a prototype with Stripe API implementation. I received a 
+                certification in Web Development from The Knowledge House in
+                October 2024.
               </p>
             </div>
 
@@ -81,8 +82,7 @@ function About() {
                 the way games like Super Mario World and Pokemon moved me. Since
                 graduating I've been working on an independent game project as
                 the sole developer. The title of the game is Purgatory. It is a
-                pixel art RPG of a typical hero's journey through a
-                post-capitalist society.{" "}
+                pixel art RPG of a typical hero's journey.
               </p>
             </div>
           </div>
