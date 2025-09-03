@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 // Asset imports
 import rat from "../../assets/rat_walk_right.gif";
 import pigeon from "../../assets/pigeon_fly.gif";
+import LoteriaWebcard from "../../assets/LoteriaWebcard.png"
 import GithubAppGif from "../../assets/GithubCloneApp.gif";
 import PurgatoryGif from "../../assets/Purgatory.gif";
-import ClassroomAvgGif from "../../assets/ClassroomAvgApp.gif";
 import SensorsLabImg from "../../assets/CapacitiveTouchSensor_LP_Bridge_DiffAmp_LM555.png";
 import WildfireAlarmImg from "../../assets/WildfireAlarm.png";
 import DriveSMImg from "../../assets/lab7_drivesm.jpg";
@@ -37,6 +37,26 @@ function Home() {
         </div>
       </div>
       <div className="projectCards">
+        <div className="projectCard">
+          <h3>
+            <Link 
+              to="https://www.notion.so/Loteria-1f29fbe6909f8091ab5bda59c98b8be3?source=copy_link"
+              target="_blank"
+            >
+              Loteria!
+            </Link>
+          </h3>
+          <Link 
+            className="projectImgLink"
+            to="https://www.notion.so/Loteria-1f29fbe6909f8091ab5bda59c98b8be3?source=copy_link" 
+            target="_blank"
+          >
+            <img
+              className="projectCardImg"
+              src={LoteriaWebcard}
+              alt="Loteria Class UML and Loteria Figma mockup"/>
+          </Link>
+        </div>
         <div className="projectCard">
           <h3>
             <Link
@@ -76,27 +96,6 @@ function Home() {
               className="projectCardImg"
               src={GithubAppGif}
               alt="Github App Demo Gif"
-            />
-          </Link>
-        </div>
-        <div className="projectCard">
-          <h3>
-            <Link 
-              to="https://classroomavgreact.onrender.com/"
-              target="_blank"
-            >
-              Classroom Average App
-            </Link>
-          </h3>
-          <Link 
-            className="projectImgLink"
-            to="https://classroomavgreact.onrender.com" 
-            target="_blank"
-          >
-            <img
-              className="projectCardImg"
-              src={ClassroomAvgGif}
-              alt="Classroom Avg App Demo Gif"
             />
           </Link>
         </div>
